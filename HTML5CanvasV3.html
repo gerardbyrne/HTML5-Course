@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<p> Welcome to the Canvas - the Quadratic Curve</p>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+       // The beginPath() method starts a path or resets the current path
+	  context.beginPath();
+	  
+	  // The moveTo() is used to create the start point of the path
+      context.moveTo(188, 150);
+	  
+	  // This defines the control point as the point 288,0 and the
+	  // End point as the point 588,150
+      context.quadraticCurveTo(288, 0, 588, 150);
+	  
+	  // Set the width of the line
+      context.lineWidth = 10;
+
+      // line color	.
+      context.strokeStyle = 'red';
+	  
+	  // Use the stroke() method to actually draw the path on the canvas
+      context.stroke();
+    </script>
+  </body>
+</html>

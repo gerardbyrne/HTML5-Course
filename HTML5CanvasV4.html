@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+	<p> Welcome to the Canvas - the Line Join</p>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="400" height="400"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      // set line width for all lines
+      context.lineWidth = 25;
+      // miter line join (left)
+      context.beginPath();   
+	  // The moveTo() is used to create the start of the path
+	  context.moveTo(49, 150);
+	  // The lineTo() is used to create the next point on the path
+      context.lineTo(99, 50);
+      context.lineTo(149, 150);
+	  // The lineJoin is used to say what type of 'corner' will be used
+      context.lineJoin = 'miter';
+      context.stroke();
+
+      // round line join (middle)
+      context.beginPath();
+	  // The moveTo() is used to create the start of the path
+      context.moveTo(49, 250);	  
+	  // The lineTo() is used to create the next point on the path
+      context.lineTo(99, 150);
+      context.lineTo(149, 250);	  
+	  // The lineJoin is used to say what type of 'corner' will be used
+      context.lineJoin = 'round';
+      context.stroke();
+
+      // bevel line join (right)
+      context.beginPath();
+      // The moveTo() is used to create the start of the path
+	  context.moveTo(49, 350);
+      // The lineTo() is used to create the next point on the path
+	  context.lineTo(99, 250);
+      context.lineTo(149, 350);
+	  // The lineJoin is used to say what type of 'corner' will be used
+      context.lineJoin = 'bevel';
+      context.stroke();
+    </script>
+  </body>
+</html> 

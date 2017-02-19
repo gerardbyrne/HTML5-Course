@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <p> Welcome to the Canvas - Transformations </p>
+  </head> 
+  <body>
+    <canvas id="myCanvas" width="300" height="300" style="border:1px solid #0000FF;"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      
+	  // Set the width and height of the rectangle
+	  var rectWidth = 80;
+      var rectHeight = 30;
+	  
+	  // Translate context to center of canvas
+      context.translate(canvas.width / 2, canvas.height / 2);
+
+	  
+      // Set the fill colour of the rectangle
+	  context.fillStyle = 'blue';
+	    
+	  // Scale context horizontally along the 
+      context.scale(2, 1);
+	  
+	  // Fill the rectangle with the colour
+      context.fillRect(0, 0, rectWidth, rectHeight);  
+    </script>
+  </body>
+</html> 

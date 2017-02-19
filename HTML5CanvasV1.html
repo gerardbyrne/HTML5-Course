@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <p> Welcome to the Canvas </p>
+  </head> 
+  <body>
+	<canvas id="myCanvas" width="300" height="300" style="border:1px solid #0000FF;"></canvas>
+	<script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      // Set the font
+      context.font = '40pt Calibri';
+	  // Set the font colour
+      context.fillStyle = 'blue';
+	  // Set the position of the text
+      context.fillText('Hello Canvas!', 10, 60);
+	  
+	  // The beginPath() method starts a path or resets the current path
+	  context.beginPath();
+	  
+	  // The moveTo() is used to create the start of the path
+      context.moveTo(20, 100);
+	  
+	  // The lineTo() is used to create the end of the path	  
+	  // We could also use quadricCurveTo(), bezierCurveTo(), arcTo(), and arc(), to create paths.
+      context.lineTo(290, 100);
+	  
+	  // Set the width of the line
+      context.lineWidth = 10;
+
+      // Set the line color
+      context.strokeStyle = '#ff0000';
+	  
+	  // Use the stroke() method to actually draw the path on the canvas
+      context.stroke();
+	  
+	  // Draw a second line with a butt end
+	  context.beginPath();
+	  context.moveTo(20, 150);
+	  context.lineTo(290, 150);
+	  context.lineWidth = 10;
+	  context.strokeStyle = '#00ff00';
+	  // Set the ends of the line (cap) to be a butt shape
+	  context.lineCap = 'butt';
+	  context.stroke();
+	  
+	  // Draw a third line with a round end
+	  context.beginPath();
+	  context.moveTo(20, 200);
+	  context.lineTo(290, 200);
+	  context.lineWidth = 10;
+	  context.strokeStyle = '#0000ff';
+	  // Set the ends of the line (cap) to be a round shape
+	  context.lineCap = 'round';
+	  context.stroke();
+	  
+	  // Draw a fourth line with a square end
+	  context.beginPath();
+	  context.moveTo(20, 250);
+	  context.lineTo(290, 250);
+	  context.lineWidth = 10;
+	  context.strokeStyle = '#FF00FF';
+	  // Set the ends of the line (cap) to be a square shape
+	  context.lineCap = 'square';
+	  context.stroke();
+	  
+	  context.rect(20, 20, 200, 100);
+			context.fillStyle = "#8ED6FF";
+			context.fill();  
+	  
+    </script>
+  </body>
+</html> 

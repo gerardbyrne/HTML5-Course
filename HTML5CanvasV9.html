@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <p> Welcome to the Canvas - Text </p>
+  </head> 
+  <body>
+	<canvas id="myCanvas" width="300" height="300" style="border:1px solid #0000FF;"></canvas>
+<script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+      
+	function wrapText(context, text, x, y, maxWidth, lineHeight) 
+	{
+        var words = text.split(' ');
+        var line = '';
+
+        for(var numberOfWords = 0; numberOfWords < words.length; numberOfWords++) 
+		{
+          var testLine = line + words[numberOfWords] + ' ';
+          var metrics = context.measureText(testLine);
+          var testWidth = metrics.width;
+          if (testWidth > maxWidth && numberOfWords > 0) 
+		  {
+            context.fillText(line, x, y);
+            line = words[numberOfWords] + ' ';
+            y += lineHeight;
+          }
+          else 
+		  {
+            line = testLine;
+          }
+        }
+        context.fillText(line, x, y);
+      } 
+	// Wrap text on canvas
+	// set the maximum width of the text
+	var maxWidth = 150;
+	
+	// set the height of each line of text
+    var lineHeight = 25;
+	
+	// set the start position of the text in terms of the x axis
+	var x = 10;
+	
+	// set the start position of the text in terms of the y axis
+	var y = 50;
+	
+	// set the text string
+    var text = 'HTML, CSS, Javascript, JQuery, JQuery Mobile, Angular and Bootstrap are all used in designing websites.';
+
+	// Wrap text on canvas using the wrapText() method
+	wrapText(context, text, x, y, maxWidth, lineHeight);
+	
+</script>
+  </body>
+</html>
+      

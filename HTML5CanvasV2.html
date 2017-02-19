@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+	<p> Welcome to the Canvas - the Arc</p>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="300" height="300"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+	  
+	  // Set the x coordinate of the centre of the circle
+      var x = canvas.width / 2;
+	  
+	  // Set the y coordinate of the centre of the circle
+      var y = canvas.height / 2;
+	  
+	  // Set the size of the radius of the circle
+      var radius = 100;
+	  
+	  // Set the start position of the arc in terms of pi (3.14...)
+      var startAngle = 0.0 * Math.PI;
+	  
+	  // Set the end position of the arc in terms of pi (3.14...)
+      var endAngle = 0.5 * Math.PI;
+	  
+	  // Set the direction to draw the arc - clockwise or anti-clockwise
+      var counterClockwise = false;
+
+      // The beginPath() method starts a path or resets the current path
+	  context.beginPath();
+	  
+	  // Draw the arc with the parameters described earlier
+      context.arc(x, y, radius, startAngle, endAngle, counterClockwise);
+	  
+	  // Set the width of the line
+      context.lineWidth = 15;
+
+      // line color
+      context.strokeStyle = 'red';
+	  
+	  // Use the stroke() method to actually draw the path on the canvas
+      context.stroke();
+    </script>
+  </body>
+</html> 

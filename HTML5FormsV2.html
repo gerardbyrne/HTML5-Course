@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Hello and welcome to HTML5 Forms!</title>
+</head>
+<body>
+<p>Welcome to the new era of HTML5 Forms</p>
+
+<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+	<ul>  	
+		<li><label for="firstname">First Name:</label>
+		<input type="text" name="firstname"></li> 
+		
+		<li><label for="lastname">Last Name:</label>
+		<input type="text" name="lastname" autofocus autocomplete="on"></li>
+		
+        <li><label for="usermail">Email</label>  
+        <input type="email" name="usermail" placeholder="yourname@email.com" multiple required></li> 
+		
+        <li><label for="url">Website URL:</label>  
+        <input type="url" name="homepage"></li> 
+		
+		<li><label for="ageId">Age</label>
+		<input type="number" name="age" min="0" max="100" id="ageId"></li> 
+		
+		<li><label for="age">Satisfaction:</label>
+		<input type="range" size="2" name="satisfaction" min="0" max="100" value="25"></li>
+				
+		<li><label for="telephone">Telephone:</label>
+		<input type="tel" id="telephone" title=”Wrong telephone number pattern” pattern=[0-9]{3}-[0-9]{3}-[0-9]{4}></li> 
+		
+		<li><label for="carcolor">Car Color:</label>
+		<input type="color" id="carcolor" name="mycarcolor"></li>
+
+		<li><label for="carregistereddate">Car Registration Date:</label>
+		<input type="date" id="dateofcarregistration" name="carregistereddate"  
+		min="2000-01-01" max="2016-01-01" ></li>
+		
+		<li><label for="timeofinsurancestart">Insurance Start Time:</label>
+		<input type="time" id="timeofinsurancestart" name="timeofinsurancestart" min="10:00:00"></li>
+		
+		<li><label for="monthofinsurancestart">Insurance Start Month:</label>
+		<input type="month" id="monthofinsurancestart" name="monthofinsurancestart"></li>
+		
+		<li><label for="weekofinsurancestart">Insurance Start Week:</label>
+		<input type="week" id="weekofinsurancestart" name="weekofinsurancestart"></li>
+		
+		<li><label for="datetimeofinsurancestart">Insurance Start Date and Time:</label>
+		<input type="datetime" id="datetimeofinsurancestart" name="datetimeofinsurancestart"></li>
+				
+    </ul>  
+	
+	<label for="lecturers">Choose your lecturer:</label>
+	<input list="lecturers">
+	
+	<datalist id="lecturers">
+	  <option label="Gerry" value="Gerry">
+	  <option label="David" value="David">
+	  <option label="Rap" value="Rap">
+	  <option label="Dwyer" value="Dwyer">
+	</datalist>
+	
+	<p></p>
+	<label for="lecturers">Choose your course:</label>
+	<select multiple>
+	  <option label="Javascript" value="Javascript">
+	  <option label="HTML5" value="HTML5">
+	  <option label="CSS3" value="CSS3">
+	  <option label="Bootstrap" value="Bootstrap">
+	</select>
+
+<p><p>
+<input type="submit" value="Login">
+</form>
+</body>
+</html>

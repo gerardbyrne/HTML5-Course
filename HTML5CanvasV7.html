@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+     <head>
+	<p> Welcome to the Canvas - Images</p>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="800" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+	  
+	  // Create an instance of Image
+      var image = new Image();
+	  
+	  // Set the location of the image using relative pathname
+	  image.src = 'Images/HTML5CSS.png';
+  	  
+	  // Draw the image
+	  image.onload = function() 
+	  {
+        // Original image
+		context.drawImage(image, 5, 5, 290, 174);
+		
+		// drawImage (img, crop_x, crop_y, crop_width, crop_height, x, y, width, height)
+		// img is the image element, crop_x and crop_y is where we start cropping our image
+		// crop_width and crop_height is the size we want to crop our image
+		// x and y are the coordinates where we wish to place the cropped image object
+		// width and height is the image size we want		
+		context.drawImage(image, 40, 50, 80, 100, 305, 5, 290, 174);
+      };    
+    </script>
+  </body>
+</html>      

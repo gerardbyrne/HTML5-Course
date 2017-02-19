@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	#box1, #box2 
+		{
+		position:	relative;
+		width: 		200px;
+		height: 	200px;
+		margin: 	10px;
+		border: 	3px solid #0000ff;
+		float:		left;
+		}
+</style>
+
+<meta charset=utf-8 />
+<title>Basic Drag and Drop</title>
+
+<script>
+	function allowDrop(event) 
+	{
+		// prevent the default action
+		event.preventDefault();
+	}
+	
+	function drag(event) 
+	{
+		// Can set and get data
+		// target is the image src AllstaeNI.png as this is what 
+		// is being dragged and initiated the dragstart
+		// content is going to be the id of this target which is anilogo
+		// dataTransfer is like our clipboard
+		// We use the setter setData
+		event.dataTransfer.setData("content", event.target.id);
+	}
+	
+	function drop(event) 
+	{
+		// prevent the default action
+		// Now we have the id of the drag item we need to do something with it
+		// we will create a variable called image and set its value to be the id
+		//of the clipboard (dataTransfer). We use the getter getData
+		event.preventDefault();
+		var image = event.dataTransfer.getData("content");
+		// make this image appear without messing up the page
+		// by appending the image
+		event.target.appendChild(document.getElementById(image));
+	}
+
+</script>
+
+</head>
+
+<body>
+<div id="box1" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img src="C:\Users\Gerard\Dropbox\Course - HTML 5\Images\AllstateNI.png" alt="ANI" id="anilogo" draggable="true" ondragstart="drag(event)"/>
+</div>
+
+<div id="box2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</div>
+</body>
+</html>

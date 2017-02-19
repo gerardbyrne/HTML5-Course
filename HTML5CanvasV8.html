@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <p> Welcome to the Canvas - Text </p>
+  </head> 
+  <body>
+	<canvas id="myCanvas" width="300" height="300" style="border:1px solid #0000FF;"></canvas>
+<script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+      
+	// Set the font family and style
+    context.font = 'bold 40pt Calibri';
+	  
+	// Set the font colour
+    context.fillStyle = 'blue';
+	 
+	// Set the alignment of the text on the canvas
+	context.textAlign = 'center';
+	 
+	// Set the position of the text
+    context.fillText('Canvas Text!', 100, 60);
+</script>
+  </body>
+</html>
+      

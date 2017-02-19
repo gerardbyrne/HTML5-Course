@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+   <p> Welcome to the Canvas - Transformations </p>
+  </head> 
+  <body>
+    <canvas id="myCanvas" width="300" height="300" style="border:1px solid #0000FF;"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+	  
+		// Draw the shadowed rectangle.
+			context.rect(20, 20, 200, 100);
+			context.fillStyle = "#FF0000";
+			context.shadowColor = "#0000FF";
+			
+			// Set the amount of blur for the shadow
+			context.shadowBlur = 20;
+			// Set the offset for the shadow in terms of x and y
+			context.shadowOffsetX = 15;
+			context.shadowOffsetY = 15;
+			context.fill();
+
+		// Draw a piece of shadowed text
+			context.shadowBlur = 3;
+			
+			// Set the offset for the shadow in terms of x and y
+			context.shadowOffsetX = 2;
+			context.shadowOffsetY = 2;
+			context.fillStyle = "red";
+			context.fillText("Gerry Byrne", 10, 150);
+			
+		// Draw a second piece of shadowed text
+			context.shadowBlur = 5;
+			
+			// Set the offset for the shadow in terms of x and y
+			context.shadowOffsetX = 20;
+			context.shadowOffsetY = 20;
+			context.fillStyle = "green";
+			context.fillText("Gerry Byrne", 10, 175);  
+    </script>
+  </body>
+</html>

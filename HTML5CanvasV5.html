@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+	<p> Welcome to the Canvas - the Rounded Corner Join</p>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+	  
+	  // Set the width and height of the rectangle
+      var rectWidth = 100;
+      var rectHeight = 100;
+      var rectX = 190;
+      var rectY = 50;
+      var cornerRadius = 30;
+	  
+	  // The beginPath() method starts a path or resets the current path
+      context.beginPath();
+	  
+      // The moveTo() is used to create the start point for the rectangle
+	  context.moveTo(rectX, rectY);
+	  
+	  // The lineTo() is used to create the line from the start point
+      context.lineTo(rectX + rectWidth - cornerRadius, rectY);
+	  
+	  // The arcTo() is used to create the arc from a start point to an end point
+	  // with a specifies radius for the circular shape
+      context.arcTo(rectX + rectWidth, rectY, rectX + rectWidth, rectY + cornerRadius, cornerRadius);
+	  
+	  // The lineTo() is used to create the line from the arc end point
+	  // to the end point of the rectangle
+      context.lineTo(rectX + rectWidth, rectY + rectHeight);
+      
+	  // Set the width of the line
+	  context.lineWidth = 10;
+	  
+	  // Set the line color
+      context.strokeStyle = '#0000ff';
+      context.stroke();
+    </script>
+  </body>
+</html>      
