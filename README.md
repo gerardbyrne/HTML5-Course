@@ -20,9 +20,9 @@ Remember that the whole purpose of following this course is for you to learn. So
 | The HTML DOM Tree of Objects |
 | HTML5 new elements for sections |
 | Lab Two – HTML5 – New elements for sections |
-|   Exercise One - The section tag |
-|   Exercise Two - The article tag |
-|   Exercise Three - The header tag |
+| Exercise One - The section tag |
+| Exercise Two - The article tag |
+| Exercise Three - The header tag |
 | Exercise Four - The footer tag |
 | Exercise Five - The div tag |
 | Exercise Six - Putting it all together |
