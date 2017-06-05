@@ -49,7 +49,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Exercise Fifteen - The time tag |
 | HTML – Rich Media (Video) |
 | History |
-| Video formats |
+| Video formats || Codecs || Containers |
 | Codecs |
 | Containers |
 | MPEG 4 |
