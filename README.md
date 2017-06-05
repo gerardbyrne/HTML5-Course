@@ -12,23 +12,14 @@ Remember that the whole purpose of following this course is for you to learn. So
 
 
 # Contents
-
-| HTML |
-| --- |
-| What is HTML? |
-| |
-| |
-| Tools required |
-| Text editor |
-| Browser |
-| Lab One – Introduction to HTML5 |
+| *Lab One – Introduction to HTML5 *|
 | Exercise One – Basic HTML with only partial code |
 | Exercise Two– Basic HTML with only complete code |
 | Exercise Three– Basic HTML with inline CSS code |
 | The HTML DOM (Document Object Model) |
 | The HTML DOM Tree of Objects |
 | HTML5 new elements for sections |
-| Lab Two – HTML5 – New elements for sections |
+| *Lab Two – HTML5 – New elements for sections* |
 | Exercise One - The section tag |
 | Exercise Two - The article tag |
 | Exercise Three - The header tag |
@@ -40,7 +31,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Exercise Nine - The aside tag |
 | Exercise Ten - The figure tag |
 | Presentational elements |
-| Lab Three – HTML5 new elements |
+| *Lab Three – HTML5 new elements* |
 | Exercise One - The bold (&lt;b&gt;) tag |
 | Exercise - The emphasise (&lt;em&gt;) tag |
 | Exercise - The italic (&lt;i&gt;) tag |
@@ -66,7 +57,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Flash Video |
 | WebM |
 | ASF |
-| Lab Four – HTML5 Rich Media (Video) |
+| *Lab Four – HTML5 Rich Media (Video)* |
 | Exercise One - The basic video (&lt;video&gt;) tag |
 | Exercise Two - The video control attributes |
 | Exercise Three - The video control attributes |
@@ -79,7 +70,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Ogg Vorbis |
 | Advanced Audio Coding (AAC) |
 | HTML5 browser audio support |
-| Lab Five – HTML5 Rich Media (Audio) |
+| *Lab Five – HTML5 Rich Media (Audio)* |
 | Exercise One - The basic audio (&lt;audio&gt;) tag |
 | Exercise Two - The audio control attributes |
 | Exercise Three - The audio source as a child element |
@@ -114,7 +105,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Animation |
 | Exercise - The Canvas and Animation |
 | HTML5 Forms |
-| Lab Six – Introduction to HTML5 Forms |
+| *Lab Six – Introduction to HTML5 Forms* |
 | Exercise One |
 | Exercise Two - The select tag |
 | Exercise Three - The radio tag |
