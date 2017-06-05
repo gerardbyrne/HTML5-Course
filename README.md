@@ -11,7 +11,14 @@ Whilst the code is included in the notes and exercises, the code is also include
 Remember that the whole purpose of following this course is for you to learn. So also remember that learning means understanding all the code that you enter. If you do no understand the code make a note of what you do not understand and follow up by searching the internet or by asking someone to help you understand the code. 
 
 
-# Contents
+| HTML |
+| --- |
+| What is HTML? |
+| |
+| |
+| Tools required |
+| Text editor |
+| Browser |
 | Lab One – Introduction to HTML5 |
 | Exercise One – Basic HTML with only partial code |
 | Exercise Two– Basic HTML with only complete code |
@@ -19,6 +26,8 @@ Remember that the whole purpose of following this course is for you to learn. So
 | The HTML DOM (Document Object Model) |
 | The HTML DOM Tree of Objects |
 | HTML5 new elements for sections |
+| Example Code |
+| Example |
 | Lab Two – HTML5 – New elements for sections |
 | Exercise One - The section tag |
 | Exercise Two - The article tag |
@@ -57,6 +66,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Flash Video |
 | WebM |
 | ASF |
+| Audio Video Interleave |
 | Lab Four – HTML5 Rich Media (Video) |
 | Exercise One - The basic video (&lt;video&gt;) tag |
 | Exercise Two - The video control attributes |
@@ -77,9 +87,11 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Exercise Four - The audio sources as a child elements |
 | Exercise Five - Using Track |
 | WebVTT Files |
+| To create a vtt file use a text editor and save the file with a .vtt extension. |
 | The WebVTT format |
 | The TTML format |
 | WebVTT Format - S |
+| To create a vtt file use a text editor and save the file with a .vtt extension. |
 | Exercise Six - Using Media Groups |
 | HTML |
 | HTML5 Canvas |
@@ -98,7 +110,11 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Shapes – Rectangle |
 | Exercise – Rectangle |
 | Exercise – Circle |
+| Images |
 | Exercise – Image |
+| Text |
+| Exercise - The Canvas and Javascript |
+| Text Wrap |
 | Exercise - The Canvas and Javascript |
 | Transformations |
 | Exercise – Transformations - Translate |
