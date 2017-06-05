@@ -19,6 +19,8 @@ Remember that the whole purpose of following this course is for you to learn. So
 | The HTML DOM (Document Object Model) |
 | The HTML DOM Tree of Objects |
 | HTML5 new elements for sections |
+| |
+| |
 | Lab Two – HTML5 – New elements for sections |
 | Exercise One - The section tag |
 | Exercise Two - The article tag |
@@ -31,6 +33,8 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Exercise Nine - The aside tag |
 | Exercise Ten - The figure tag |
 | Presentational elements |
+| |
+| |
 | Lab Three – HTML5 new elements |
 | Exercise One - The bold (&lt;b&gt;) tag |
 | Exercise - The emphasise (&lt;em&gt;) tag |
@@ -49,12 +53,15 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Exercise Fifteen - The time tag |
 | HTML – Rich Media (Video) |
 | Video formats, Codecs, Containers, MPEG 4, Ogg, Flash Video, WebM, ASF, Audio Video Interleave |
-|   |
+| |
+| |
 | Lab Four – HTML5 Rich Media (Video) |
 | Exercise One - The basic video (&lt;video&gt;) tag |
 | Exercises Two - Four The video control attributes |
 | HTML – Rich Media (Audio) |
 | Audio formats, Wave (WAV), MP3, Ogg Vorbis, Advanced Audio Coding (AAC), HTML5 browser audio support |
+| |
+| |
 | Lab Five – HTML5 Rich Media (Audio) |
 | Exercise One - The basic audio (&lt;audio&gt;) tag |
 | Exercise Two - The audio control attributes |
@@ -90,6 +97,8 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Animation |
 | Exercise - The Canvas and Animation |
 | HTML5 Forms |
+| |
+| |
 | Lab Six – Introduction to HTML5 Forms |
 | Exercise One |
 | Exercise Two - The select tag |
