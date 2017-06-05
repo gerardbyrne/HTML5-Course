@@ -50,7 +50,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | HTML – Rich Media (Video) |
 | History |
 | Video formats, Codecs, Containers, MPEG 4, Ogg, Flash Video, WebM, ASF, Audio Video Interleave |
-
+|   |
 | Lab Four – HTML5 Rich Media (Video) |
 | Exercise One - The basic video (&lt;video&gt;) tag |
 | Exercise Two - The video control attributes |
