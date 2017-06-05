@@ -48,34 +48,19 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Exercise Fourteen - The mark tag |
 | Exercise Fifteen - The time tag |
 | HTML – Rich Media (Video) |
-| History |
 | Video formats, Codecs, Containers, MPEG 4, Ogg, Flash Video, WebM, ASF, Audio Video Interleave |
 |   |
 | Lab Four – HTML5 Rich Media (Video) |
 | Exercise One - The basic video (&lt;video&gt;) tag |
-| Exercise Two - The video control attributes |
-| Exercise Three - The video control attributes |
-| Exercise Four - The video control attributes |
+| Exercises Two - Four The video control attributes |
 | HTML – Rich Media (Audio) |
-| History |
-| Audio formats |
-| Wave (WAV) |
-| MP3 |
-| Ogg Vorbis |
-| Advanced Audio Coding (AAC) |
-| HTML5 browser audio support |
+| Audio formats, Wave (WAV), MP3, Ogg Vorbis, Advanced Audio Coding (AAC), HTML5 browser audio support |
 | Lab Five – HTML5 Rich Media (Audio) |
 | Exercise One - The basic audio (&lt;audio&gt;) tag |
 | Exercise Two - The audio control attributes |
-| Exercise Three - The audio source as a child element |
-| Exercise Four - The audio sources as a child elements |
+| Exercise Three and Four - The audio source as a child element |
 | Exercise Five - Using Track |
-| WebVTT Files |
-| To create a vtt file use a text editor and save the file with a .vtt extension. |
-| The WebVTT format |
-| The TTML format |
-| WebVTT Format - S |
-| To create a vtt file use a text editor and save the file with a .vtt extension. |
+| WebVTT Format and Files |
 | Exercise Six - Using Media Groups |
 | HTML |
 | HTML5 Canvas |
