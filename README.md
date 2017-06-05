@@ -49,7 +49,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 | Exercise Fifteen - The time tag |
 | HTML – Rich Media (Video) |
 | History |
-| Video formats || Codecs || Containers |
+| Video formats, Codecs, Containers, MPEG 4, Ogg, Flash Video, WebM, ASF, Audio Video Interleave |
 | Codecs |
 | Containers |
 | MPEG 4 |
