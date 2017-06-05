@@ -12,7 +12,7 @@ Remember that the whole purpose of following this course is for you to learn. So
 
 
 # Contents
-| *Lab One – Introduction to HTML5 *|
+* Lab One – Introduction to HTML5 *
 | Exercise One – Basic HTML with only partial code |
 | Exercise Two– Basic HTML with only complete code |
 | Exercise Three– Basic HTML with inline CSS code |
