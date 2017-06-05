@@ -10,8 +10,7 @@ Whilst the code is included in the notes and exercises, the code is also include
 # Learning
 Remember that the whole purpose of following this course is for you to learn. So also remember that learning means understanding all the code that you enter. If you do no understand the code make a note of what you do not understand and follow up by searching the internet or by asking someone to help you understand the code. 
 
-| CONTENT |
-
+| --- |
 | Lab One – Introduction to HTML5 |
 | Exercise One – Basic HTML with only partial code |
 | Exercise Two– Basic HTML with only complete code |
